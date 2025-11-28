@@ -1,7 +1,7 @@
 %% Preliminary setup
 %%
 clear
-addpath(genpath('..\packages\Metabolic-EP'));
+addpath(genpath('..\..\packages\Metabolic-EP'));
 changeCobraSolver('ibm_cplex','LP');
 rng default
 if not(isfolder('..\data\results'))
