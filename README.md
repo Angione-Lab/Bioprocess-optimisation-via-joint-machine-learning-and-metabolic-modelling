@@ -2,9 +2,11 @@
 
 This code accompanies the manuscript 
 
-> Bioprocess optimisation via joint machine learning and metabolic modelling
-> Zampieri, G., Sandner, V., Verma, S., Kraemer, J., Lennon, C., Occhipinti, A., McCreath, G., and Angione, C.
+> Zampieri, G., Sandner, V., Verma, S., Kraemer, J., Lennon, C., Occhipinti, A., McCreath, G., and Angione, C. <br />
+> [Bioprocess optimisation via joint machine learning and metabolic modelling](https://www.sciencedirect.com/science/article/pii/S1096717626000388) <br />
+> Metabolic Engineering, 2026
 
+> 
 ## Content
 In the Fujifilm case study, three scripts have the precedence as they generate the data for the following analyses:
 * **parse_process_data.mlx** generates metabolic rates to be used as constraints in the genome-scale metabolic models and associated experimental parameters starting from raw offline/online metabolite concentrations and dry cell weights.
